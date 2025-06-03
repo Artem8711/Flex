@@ -4,11 +4,8 @@
 
 .parent {
    border: 2px solid blue;
-   height: 150px;
+   min-height: 150px;
    display: flex;
-   flex-direction: column;
-   /*  justify-content: space-between;
-   align-items: flex-start; */
 }
 
 .child {
@@ -16,15 +13,5 @@
 }
 
 .child1 {
-   align-self: flex-end;
-   /*  align-self: center; */
-}
-
-.child2,
-.child3,
-.child4,
-.child5,
-.child6 {
-   align-self: center;
-   /*  align-self: flex-end; */
+   order: 6;
 }
